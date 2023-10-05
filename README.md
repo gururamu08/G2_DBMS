@@ -27,50 +27,58 @@ REG NO : 212222230042
 
 ### SQL QUERY: 
 
-create table student_table(Roll_no numeric(10) , Name varchar(20) , Age numeric(3), Address varchar(20) , Phone_no numeric(10));
+create table stud_table(Roll_no numeric(10) , Name varchar(20) , Age numeric(3), Address varchar(20) , Phone_no numeric(10));
 
 
 ### OUTPUT:
-![image](https://github.com/kavinesh8476/H2_DBMS/assets/118466561/4a32c0c9-ee02-4e11-a898-2abd9be28300)
-![image](https://github.com/kavinesh8476/H2_DBMS/assets/118466561/bc2e9eba-0b51-4790-aa3a-1626e6454cfb)
+
+![1](https://github.com/gururamu08/G2_DBMS/assets/118707009/b5226a57-eedd-426a-8f91-6bfbd6c655fe)
+
+![2](https://github.com/gururamu08/G2_DBMS/assets/118707009/6acb43cd-78d7-48dc-8ded-11907e2e2cb7)
 
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
- alter table student_table add Department varchar(20);
+ alter table stud_table add Department varchar(20);
 
 ### OUTPUT:
-![image](https://github.com/kavinesh8476/H2_DBMS/assets/118466561/3646d875-ce27-4667-b5a4-b2540c578cbf)
+
+![3](https://github.com/gururamu08/G2_DBMS/assets/118707009/ed68bdbc-0cb7-4bec-833b-c78c092a1804)
+
+
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-drop table student_table;
+drop table stud_table;
 
 ### OUTPUT:
-![image](https://github.com/kavinesh8476/H2_DBMS/assets/118466561/fde9478b-5bfc-4f46-93da-8a8ad27a82e4)
+
+![4](https://github.com/gururamu08/G2_DBMS/assets/118707009/13e8cabe-30bf-4284-a693-e3ee212d764f)
 
 
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-truncate table student_table;
+truncate table stud_table;
 
 ### OUTPUT:
 
-![image](https://github.com/kavinesh8476/H2_DBMS/assets/118466561/a76ab110-03a0-4ee0-8aac-c6c75e688ec0)
+![5](https://github.com/gururamu08/G2_DBMS/assets/118707009/3d943227-a1c9-4653-a7fd-85a21e2419e1)
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-alter table student_table rename to stud;
+alter table stud_table rename to stude;
 
 ### OUTPUT:
-![image](https://github.com/kavinesh8476/H2_DBMS/assets/118466561/bab1d99d-1b2f-4136-86f7-a14436069ec4)
+
+![6](https://github.com/gururamu08/G2_DBMS/assets/118707009/b5267a2e-ba0b-4cdf-adf4-eea828317a06)
+
 ### RESULT:
 Thus , a student database is created and DDL queries are executed in SQL.
 
